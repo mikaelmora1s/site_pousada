@@ -1,0 +1,95 @@
+.banner{
+  width: 100%;
+  height: 100vh;
+  padding-inline:1.25rem;
+  background-image: url('../../assets/img/img-fundo.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner__title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 2.5rem 1.25rem;
+  font-size: 1.75rem;
+  color: #fff;
+  background-color: #0a9077b3;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.room__gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.room__card {
+  flex: 1 0 250px;
+  text-decoration: none;
+  color: #3d3d3d;
+  padding-bottom:.625rem;
+  border-bottom: 2px solid #00836a;
+}
+
+.room__card img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.info__cards {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.875rem;
+}
+
+.info__card {
+  height:8.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .625rem;
+  flex: 1 0 350px;
+  text-align: left;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  transition:scale .5s;
+}
+
+.info__card-text {
+  width: 100%;
+  height: 100%;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: .625rem;
+}
+
+.info__card-img {
+  width: 30%;
+  height: 100%;
+}
+
+.info__card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+
+}
+
+.info__card:hover{
+  scale: 1.03;
+}

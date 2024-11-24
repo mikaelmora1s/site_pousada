@@ -1,0 +1,43 @@
+.header {
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+  color: #3d3d3d;
+}
+
+.header__logo {
+  flex: 1 0 60%;
+}
+
+.header__logo a {
+  font-size: 1.5rem;
+}
+
+.header__logo a span {
+  color: #6592c9;
+}
+
+.header__ul {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 0 150px;
+}
+
+.header__ul-link{
+  font-size: .9rem;
+  padding:.8rem;
+  transition: border .5s ease;
+}
+
+.header__ul-link:hover {
+  border-bottom:1px solid #3d3d3d;
+}

@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.section__limited {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  color: #3d3d3d;
+  text-decoration: none;
+}
+
+.header__ul {
+  list-style: none;
+}
+
+.section__container{
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+  padding: 6.25rem 1.25rem;
+  text-align: center;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.description h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+iframe{
+  padding-inline: 1.25rem;
+}
