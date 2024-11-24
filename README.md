@@ -6,7 +6,7 @@ Este repositório contém o código-fonte de um site fictício desenvolvido para
 
 Aqui está como o projeto fica visualmente:
 
-![Site Pousada Secreta](/src/assets/img/page_full.png)
+![Site Pousada Secreta](/src/assets/img/page_full1.png)
 
 ## Como Usar
 
